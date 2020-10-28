@@ -1,0 +1,364 @@
+[
+    {
+        "id":1,
+        "nombre":"Zapatilla Rosa Adidas Entrap",
+        "descripcion":"",
+        "precio":6799,
+        "id_marca":1,
+        "modelo":"Entrap",
+        "id_genero":2
+    },
+    {
+        "id":2,
+        "nombre":"Zapatilla Negra Adidas Entrap",
+        "descripcion":"",
+        "precio":6369,
+        "id_marca":1,
+        "modelo":"Entrap",
+        "id_genero":2
+       },
+       {
+        "id":3,
+        "nombre":"Zapatilla Rosa Adidas Runfalcon",
+        "descripcion":"",
+        "precio":5299,
+        "id_marca":1,
+        "modelo":"Runfalcon",
+        "id_genero":2
+       },
+       {
+        "id":4,
+        "nombre":"Zapatilla Blanca Adidas Superstar",
+        "descripcion":"",
+        "precio":8999,
+        "id_marca":1,
+        "modelo":"Superstar",
+        "id_genero":2
+       },
+       {
+        "id":5,
+        "nombre":"Zapatilla Negra Adidas Advantage Bold",
+        "descripcion":"",
+        "precio":5299,
+        "id_marca":1,
+        "modelo":"Advantage Bold",
+        "id_genero":1
+       },
+       {
+        "id":6,
+        "nombre":"Zapatilla Naranja Adidas Fabela Rise",
+        "descripcion":"",
+        "precio":9199,
+        "id_marca":1,
+        "modelo":"Fabela Rise",
+        "id_genero":1
+       },
+       {
+        "id":7,
+        "nombre":"Zapatilla Azul Adidas Astrarun",
+        "descripcion":"",
+        "precio":6499,
+        "id_marca":1,
+        "modelo":"Astrarun",
+        "id_genero":1
+       },
+       {
+        "id":8,
+        "nombre":"Zapatilla Blanca Adidas Solar Trainer",
+        "descripcion":"",
+        "precio":6299,
+        "id_marca":1,
+        "modelo":"Solar Trainer",
+        "id_genero":1
+       },
+       {
+        "id":9,
+        "nombre":"Zapatilla Blanca Adidas Grand Court K",
+        "descripcion":"",
+        "precio":4999,
+        "id_marca":1,
+        "modelo":"Court K",
+        "id_genero":3
+       },
+       {
+        "id":10,
+        "nombre":"Zapatilla Blanca Adidas Originals Superstar",
+        "descripcion":"",
+        "precio":5499,
+        "id_marca":1,
+        "modelo":"Superstar",
+        "id_genero":3
+       },
+       {
+        "id":11,
+        "nombre":"Zapatilla Rosa Nike Air Max Command",
+        "descripcion":"",
+        "precio":11599,
+        "id_marca":2,
+        "modelo":"Air Max Command",
+        "id_genero":2
+       },
+       {
+        "id":12,
+        "nombre":"Zapatilla Blanca Nike RENEW RUN",
+        "descripcion":"",
+        "precio":9299,
+        "id_marca":2,
+        "modelo":"Renew Run",
+        "id_genero":2
+       },
+       {
+        "id":13,
+        "nombre":"Zapatilla Gris Nike Md Runner 2 Se",
+        "descripcion":"",
+        "precio":5039,
+        "id_marca":2,
+        "modelo":"Md Runner 2 Se",
+        "id_genero":2
+       },
+       {
+        "id":14,
+        "nombre":"Zapatilla Negra Nike AMIXA",
+        "descripcion":"",
+        "precio":8399,
+        "id_marca":2,
+        "modelo":"Amixa",
+        "id_genero":2
+       },
+       {
+        "id":15,
+        "nombre":"Zapatilla Azul Nike Zoom Rival Fly",
+        "descripcion":"",
+        "precio":5287,
+        "id_marca":2,
+        "modelo":"Rival Fly",
+        "id_genero":2
+       },
+       {
+        "id":16,
+        "nombre":"Zapatilla Negra Nike AIR MAX BELLA TR 2",
+        "descripcion":"",
+        "precio":8699,
+        "id_marca":2,
+        "modelo":"Air max Bella TR 2",
+        "id_genero":2
+       },
+       {
+        "id":17,
+        "nombre":"Zapatilla Bordó Nike Air Max Axis",
+        "descripcion":"",
+        "precio":7969,
+        "id_marca":2,
+        "modelo":"Air Max Axis",
+        "id_genero":2
+       },
+       {
+        "id":18,
+        "nombre":"Zapatilla Negra Nike Renew Lucent",
+        "descripcion":"",
+        "precio":8389,
+        "id_marca":2,
+        "modelo":"Renew Lucent",
+        "id_genero":2
+       },
+       {
+        "id":19,
+        "nombre":"Zapatilla Negra Converse Chuck Taylor All Star Monochro",
+        "descripcion":"",
+        "precio":5199,
+        "id_marca":3,
+        "modelo":"Monochro",
+        "id_genero":2
+       },
+       {
+        "id":20,
+        "nombre":"Zapatilla Roja Converse Chuck Taylor All Star Core OX",
+        "descripcion":"",
+        "precio":4995,
+        "id_marca":3,
+        "modelo":"Core Ox",
+        "id_genero":2
+       },{
+        "id":21,
+        "nombre":"Zapatilla Blanca Converse Chuck Taylor All Star Metallic",
+        "descripcion":"",
+        "precio":3369,
+        "id_marca":3,
+        "modelo":"Core Ox",
+        "id_genero":2
+       },
+       {
+        "id":22,
+        "nombre":"Zapatilla Azul Converse Stoke Ox",
+        "descripcion":"",
+        "precio":4089,
+        "id_marca":3,
+        "modelo":"Stoke Ox",
+        "id_genero":1
+       }
+       ,{
+        "id":23,
+        "nombre":"Zapatilla Negra Converse RIVAL OX",
+        "descripcion":"",
+        "precio":6399,
+        "id_marca":3,
+        "modelo":"Rival Ox",
+        "id_genero":1
+       },
+       {
+        "id":24,
+        "nombre":"Zapatilla Verde Converse Stoke Ox Faded",
+        "descripcion":"",
+        "precio":4039,
+        "id_marca":3,
+        "modelo":"Stoke Od Faded",
+        "id_genero":2
+       },
+       {
+        "id":25,
+        "nombre":"Zapatilla Verde Converse CTAS LIFT OX",
+        "descripcion":"",
+        "precio":6199,
+        "id_marca":3,
+        "modelo":"Lift Ox",
+        "id_genero":2
+       }
+       ,{
+        "id":26,
+        "nombre":"Zapatilla Bordó Converse Chuck Taylor All Star Hi Maroo",
+        "descripcion":"",
+        "precio":4999,
+        "id_marca":3,
+        "modelo":"Hi Maroo",
+        "id_genero":2
+       },{
+        "id":27,
+        "nombre":"Zapatilla Tribeka Dc Se",
+        "descripcion":"",
+        "precio":8299,
+        "id_marca":4,
+        "modelo":"Tribeka",
+        "id_genero":2
+       },{
+        "id":28,
+        "nombre":"Zapatilla DC Heathrow Ia",
+        "descripcion":"",
+        "precio":6399,
+        "id_marca":4,
+        "modelo":"Heathrow Ia",
+        "id_genero":2
+       },{
+        "id":29,
+        "nombre":"Zapatilla Tribeka Dc Se Dorada",
+        "descripcion":"",
+        "precio":8299,
+        "id_marca":4,
+        "modelo":"Tribeka",
+        "id_genero":2
+       },{
+        "id":30,
+        "nombre":"Zapatilla DC Heathrow",
+        "descripcion":"",
+        "precio":8299,
+        "id_marca":4,
+        "modelo":"Heathrow",
+        "id_genero":2
+       },{
+        "id":31,
+        "nombre":"Zapatilla DC Heathrow SE",
+        "descripcion":"",
+        "precio":7299,
+        "id_marca":4,
+        "modelo":"Heathrow",
+        "id_genero":3
+       },{
+        "id":32,
+        "nombre":"Zapatilla DC Trase Tx",
+        "descripcion":"",
+        "precio":5799,
+        "id_marca":4,
+        "modelo":"Trase Tx",
+        "id_genero":3
+       },{
+        "id":33,
+        "nombre":"Zapatilla DC Trase Tx Se",
+        "descripcion":"",
+        "precio":6999,
+        "id_marca":4,
+        "modelo":"Trase Tx Se",
+        "id_genero":3
+       },{
+        "id":34,
+        "nombre":"Zapatilla DC Heathrow",
+        "descripcion":"",
+        "precio":6999,
+        "id_marca":4,
+        "modelo":"Trase Tx",
+        "id_genero":3
+       },{
+        "id":35,
+        "nombre":"Zapatilla U Vans Sport",
+        "descripcion":"",
+        "precio":6900,
+        "id_marca":5,
+        "modelo":"Sport",
+        "id_genero":1
+       },{
+        "id":36,
+        "nombre":"Zapatilla U Vans Authentic",
+        "descripcion":"",
+        "precio":4900,
+        "id_marca":5,
+        "modelo":"Authentic",
+        "id_genero":1
+       },{
+        "id":37,
+        "nombre":"Zapatilla U Vans Doheny",
+        "descripcion":"",
+        "precio":5100,
+        "id_marca":5,
+        "modelo":"Doheny",
+        "id_genero":1
+       },{
+        "id":38,
+        "nombre":"Zapatilla U Vans Sk8-Hi",
+        "descripcion":"",
+        "precio":7700,
+        "id_marca":5,
+        "modelo":"Sk8-Hi",
+        "id_genero":1
+       },{
+        "id":39,
+        "nombre":"Zapatilla U Vans Sk8-Hi",
+        "descripcion":"",
+        "precio":7700,
+        "id_marca":5,
+        "modelo":"Sk8-Hi",
+        "id_genero":1
+       },{
+        "id":40,
+        "nombre":"Zapatilla U Vans Authentic Elastic Lace",
+        "descripcion":"",
+        "precio":1200,
+        "id_marca":5,
+        "modelo":"Authentic Elastic Lace",
+        "id_genero":3
+       },{
+        "id":41,
+        "nombre":"Zapatilla U Vans T Classic Slip-on",
+        "descripcion":"",
+        "precio":1800,
+        "id_marca":5,
+        "modelo":"Classic Slip-on",
+        "id_genero":3
+       },{
+        "id":42,
+        "nombre":"Zapatilla U Vans T Sk8-Hi Zip",
+        "descripcion":"",
+        "precio":2200,
+        "id_marca":5,
+        "modelo":"T Sk8-Hi Zip",
+        "id_genero":3
+       }
+
+]

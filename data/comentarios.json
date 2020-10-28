@@ -1,0 +1,76 @@
+[
+    {
+        "id":"1",
+        "id_producto":1,
+        "email":"CarlaSanchez@Gmail.com",
+        "nombre":"Carla",
+        "comentario":"Tremendas zapas para usar todos los dias! 10/10",
+        "estrellas":5,
+        "fecha":"28/09/2020"
+    },{
+        "id":"2",
+        "id_producto":1,
+        "email":"martusol01@Gmail.com",
+        "nombre":"Martina",
+        "comentario":"Muy buenas pero hay que tener cuidado con los talles, pidanse uno menos de lo normal. Son grandes",
+        "estrellas":4,
+        "fecha":"28/09/2020"
+    },{
+        "id":"3",
+        "id_producto":1,
+        "email":"SoleSin@Gmail.com",
+        "nombre":"Sol",
+        "comentario":"Productazo, sin palabras",
+        "estrellas":5,
+        "fecha":"28/09/2020"
+    },{
+        "id":"4",
+        "id_producto":2,
+        "email":"CarlaSanchez@Gmail.com",
+        "nombre":"Carla",
+        "comentario":"Tremendas zapas para usar todos los dias! 10/10",
+        "estrellas":5,
+        "fecha":"28/09/2020"
+    },{
+        "id":"5",
+        "id_producto":2,
+        "email":"martusol01@Gmail.com",
+        "nombre":"Martina",
+        "comentario":"Muy buenas pero hay que tener cuidado con los talles, pidanse uno menos de lo normal. Son grandes",
+        "estrellas":4,
+        "fecha":"28/09/2020"
+    },{
+        "id":"6",
+        "id_producto":2,
+        "email":"SoleSin@Gmail.com",
+        "nombre":"Sol",
+        "comentario":"Productazo, sin palabras",
+        "estrellas":5,
+        "fecha":"28/09/2020"
+    },{
+        "id":"7",
+        "id_producto":3,
+        "email":"CarlaSanchez@Gmail.com",
+        "nombre":"Carla",
+        "comentario":"Tremendas zapas para usar todos los dias! 10/10",
+        "estrellas":5,
+        "fecha":"28/09/2020"
+    },{
+        "id":"8",
+        "id_producto":3,
+        "email":"martusol01@Gmail.com",
+        "nombre":"Martina",
+        "comentario":"Muy buenas pero hay que tener cuidado con los talles, pidanse uno menos de lo normal. Son grandes",
+        "estrellas":4,
+        "fecha":"28/09/2020"
+    },{
+        "id":"9",
+        "id_producto":3,
+        "email":"SoleSin@Gmail.com",
+        "nombre":"Sol",
+        "comentario":"Productazo, sin palabras",
+        "estrellas":5,
+        "fecha":"28/09/2020"
+    }
+
+]

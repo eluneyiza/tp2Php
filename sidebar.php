@@ -22,7 +22,7 @@
 			<!-- ----------------------------------------| MARCA |----------------------------------------------->
 
 
-			<div class="list-group list-group-flush">
+		<div class="list-group list-group-flush">
 				<a href="#" class="list-group-item list-group-item-action nav-link dropdown-toggle" id="navbarDropdown"
 					role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Marcas</a>
 

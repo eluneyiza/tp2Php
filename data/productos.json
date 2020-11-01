@@ -6,7 +6,8 @@
         "precio":6799,
         "id_marca":1,
         "modelo":"Entrap",
-        "id_genero":2
+        "id_genero":2,
+        "ruta":"/nike500.png"
     },
     {
         "id":2,

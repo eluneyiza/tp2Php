@@ -20,6 +20,7 @@
 				$productos = json_decode(file_get_contents('C:\xampp\htdocs\ProgramacionWeb\PW2-G2-09-23-Ceballo-Carballal-Seijas-Iza\data\productos.json'), true);
 		
 				foreach ($productos as $producto) {
+					
 					echo '<div class="col-sm-4">';
 					echo '<div class="card-columns-fluid">';
 					echo '<img src="img/adidas/adidas-hombre/adidas-4787-373115-1-zoom.jpg" class="card-img-top" alt="adidas-astrarun">';
@@ -28,11 +29,11 @@
 					echo  '<p class="card-text"> Las nuevas ' . $producto["nombre"] .'!</p>';
 					echo	'<p class="card-text "><small class="text-muted">Nuevas!</small></p> </div>';
 					echo'<div class="card-footer text-center">';
-					echo	'<a class="btn btn-primary" href="'.$producto['id'].'.php" role="button">Detalles aqui!</a>' ;
+					echo	'<a class="btn btn-primary" href="detalle.php?id_producto='.$producto['id'].'" role="button">Detalles aqui!</a>' ;
 					echo'</div>';
 					echo'</div>';
 					echo'</div>';
-
+					
 				};
 
 				

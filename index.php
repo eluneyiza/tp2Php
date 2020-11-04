@@ -8,16 +8,8 @@
 ?>
 <body>
 		<?php
-		
 		require('sidebar.php');
-		
 		$productos = json_decode(file_get_contents('C:\xampp\htdocs\ProgramacionWeb\PW2-G2-09-23-Ceballo-Carballal-Seijas-Iza\data\productos.json'), true);
-		
-		foreach ($productos as $producto) {
-			if($producto["id"] == 1 ||$producto["id"] == 2 || $producto["id"] == 3){
-			echo "<div class='col-sm-6'><p>Anda </p>". $producto['id'] . "</div> <br>";
-			}
-		};
 		?>
 		
 		

@@ -1,55 +1,86 @@
 <div class="d-flex" id="wrapper">
 		<!-- ----------------------------------------| SIDEBAR | FILTROS |----------------------------------------------->
-
-		<!-- ----------------------------------------| CATEGORIA |----------------------------------------------->
-
 		<div class="border-right" id="sidebar-wrapper">
-			<div class="sidebar-heading nav-link"> World Shoes </div>
-			<div class="list-group list-group-flush">
-				<a href="#" class="list-group-item list-group-item-action nav-link dropdown-toggle" id="navbarDropdown"
-					role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Categorias</a>
+		<!-- ----------------------------------------| CATEGORIA |----------------------------------------------->
+		<?php
+				if (isset($_REQUEST['idcategoria'])){
+				$idCategoria = $_REQUEST['idcategoria'];
+			}
+			else{
+				$idCategoria = '';
+			}
+			if (isset($_REQUEST['idmarca'])){
+				$idMarca = $_REQUEST['idmarca'];
+			}
+			else{
+				$idMarca = '';
+			}
 
-				<div class="dropdown-menu dropdown-menu" aria-labelledby="navbarDropdown">
-					<a class="dropdown-item" href="hombre.php" target="new">Hombre</a>
-					<div class="dropdown-divider"></div>
-					<a class="dropdown-item" href="mujer.php" target="new">Mujer</a>
-					<div class="dropdown-divider"></div>
-					<a class="dropdown-item" href="nines.php" target="new">Niñes</a>
-				</div>
+				$thisFile = "productos.php";
+				$linkCategoria = $thisFile.'?idcategoria=&idmarca='.$idMarca;
+				$marcas = json_decode(file_get_contents('.\data\marcas.json'), true);
+				
+				
+				$linkMarca = $thisFile.'?idcategoria=&idmarca='.$idCategoria;
+				$categorias = json_decode(file_get_contents('.\data\categorias.json'), true);
+			
 
-			</div>
+				$productos = json_decode(file_get_contents('.\data\productos.json'), true);
+					// $productos = json_decode(file_get_contents('C:\xampp\htdocs\ProgramacionWeb\PW2-G2-09-23-Ceballo-Carballal-Seijas-Iza\data\productos.json'), true);
+						
+					$curPageName = substr($_SERVER["SCRIPT_NAME"],strrpos($_SERVER["SCRIPT_NAME"],"/")+1);  
+					if($curPageName == "productos.php"){
+
+				echo'<div class="sidebar-heading nav-link"> World Shoes </div>';
+				echo'<div class="list-group list-group-flush">';
+				echo'<a href="'.$linkCategoria.'" class="list-group-item list-group-item-action nav-link dropdown-toggle" id="navbarDropdown"';
+				echo'role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Categorias</a>';
+				echo'<div class="dropdown-menu dropdown-menu" aria-labelledby="navbarDropdown">';
+				foreach ($categorias as $categoria) {
+					echo '<a class="dropdown-item" href="'.$thisFile.'?idcategoria='.$categoria['id'].
+								'&idmarca='.$idMarca.'">'.$categoria['nombre'].'</a><br />';
+					
+				}
+
+				echo '</div></div>';
+
+
+				echo'<div class="list-group list-group-flush">';
+				echo'<a href="#" class="list-group-item list-group-item-action nav-link dropdown-toggle" id="navbarDropdown"role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Marcas</a>';
+				echo '<div class="dropdown-menu dropdown-menu" aria-labelledby="navbarDropdown">';
+
+				foreach ($marcas as $marca) {
+					echo '<a class="dropdown-item" href="'.$thisFile.'?idcategoria='.$idCategoria.'&idmarca='.$marca['id'].'">'.$marca['nombre'].'</a><br />';
+					
+					
+				}
+
+					
+				echo '</div></div>';
+				
+
+			}?>
+	
+
+		
+			
 
 			<!-- ----------------------------------------| MARCA |----------------------------------------------->
 
-
-		<div class="list-group list-group-flush">
-				<a href="#" class="list-group-item list-group-item-action nav-link dropdown-toggle" id="navbarDropdown"
-					role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Marcas</a>
-
-				<div class="dropdown-menu dropdown-menu" aria-labelledby="navbarDropdown">
-					<a class="dropdown-item" href="adidas.php" target="new">Adidas</a>
-					<div class="dropdown-divider"></div>
-					<a class="dropdown-item" href="nike.php" target="new">Nike</a>
-					<div class="dropdown-divider"></div>
-					<a class="dropdown-item" href="dc.php" target="new">DC</a>
-
-					<div class="dropdown-divider"></div>
-					<a class="dropdown-item" href="vans.php" target="new">Vans</a>
-
-					<div class="dropdown-divider"></div>
-					<a class="dropdown-item" href="converse.php" target="new">Converse</a>
-
-					
-				</div>
-			</div>
-		</div>
+ 
+		
+		</div> 
         <!-- ----------------------------------------| SIDEBAR | FIN |----------------------------------------------->
         <!-- ----------------------------------------| DESTACADOS |----------------------------------------------->
 
 		<div id="page-content-wrapper">
 
 <nav class="navbar navbar-expand-lg navbar-light border-bottom">
-	<button class="btn" id="menu-toggle">Filtros</button>
+	<?php
+	if($curPageName == "productos.php"){
+		echo'<button class="btn" id="menu-toggle">Filtros</button>';
+	}
+	?>
 	<a class="nav-link" href="index.php" alt="Home | index.html">
     <img src="img/logo_en_negro.png" alt="Logo" class="pl-4" width="100px"></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse"

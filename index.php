@@ -9,7 +9,7 @@
 <body>
 		<?php
 		require('sidebar.php');
-		$productos = json_decode(file_get_contents('C:\xampp\htdocs\ProgramacionWeb\PW2-G2-09-23-Ceballo-Carballal-Seijas-Iza\data\productos.json'), true);
+		$productos = json_decode(file_get_contents('C:\xampp\htdocs\tp2Php-master\data\productos.json'), true);
 		?>
 		
 		

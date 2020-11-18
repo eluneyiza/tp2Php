@@ -6,7 +6,9 @@
         "precio":6799,
         "id_marca":1,
         "modelo":"Entrap",
-        "id_genero":2
+        "id_genero":2,
+        "imagenmini": "inc/img/adidasmujer/adidas-rosa-entrap-mini.jpg",
+        "imagengrande": "inc/img/adidasmujer/adidas-rosa-entrap-grande.jpg" 
     },
     {
         "id":2,
@@ -15,7 +17,9 @@
         "precio":6369,
         "id_marca":1,
         "modelo":"Entrap",
-        "id_genero":2
+        "id_genero":2,
+        "imagenmini": "inc/img/adidasmujer/adidas-negra-entrap-mini.jpg",
+        "imagengrande": "inc/img/adidasmujer/adidas-negra-entrap-grande.jpg" 
        },
        {
         "id":3,
@@ -24,7 +28,9 @@
         "precio":5299,
         "id_marca":1,
         "modelo":"Runfalcon",
-        "id_genero":2
+        "id_genero":2,
+        "imagenmini": "inc/img/adidasmujer/adidas-rosa-runfalcon-mini.jpg",
+        "imagengrande": "inc/img/adidasmujer/adidas-rosa-runfalcon-grande.jpg"
        },
        {
         "id":4,
@@ -33,7 +39,9 @@
         "precio":8999,
         "id_marca":1,
         "modelo":"Superstar",
-        "id_genero":2
+        "id_genero":2,
+        "imagenmini": "inc/img/adidasmujer/adidas-blanca-superestar-mini.jpg",
+        "imagengrande": "inc/img/adidasmujer/adidas-blanca-superestar-grande.jpg" 
        },
        {
         "id":5,
@@ -42,7 +50,9 @@
         "precio":5299,
         "id_marca":1,
         "modelo":"Advantage Bold",
-        "id_genero":1
+        "id_genero":1,
+        "imagenmini": "inc/img/adidashombre/adidas-negra-advantagebold-mini.jpg",
+        "imagengrande": "inc/img/adidashombre/adidas-negra-advantagebold-grande.jpg" 
        },
        {
         "id":6,
@@ -51,7 +61,9 @@
         "precio":9199,
         "id_marca":1,
         "modelo":"Fabela Rise",
-        "id_genero":1
+        "id_genero":1,
+        "imagenmini": "inc/img/adidashombre/adidas-negra-fabelarise-mini.jpg",
+        "imagengrande": "inc/img/adidashombre/adidas-negra-fabelarise-grande.jpg"
        },
        {
         "id":7,
@@ -60,7 +72,9 @@
         "precio":6499,
         "id_marca":1,
         "modelo":"Astrarun",
-        "id_genero":1
+        "id_genero":1,
+        "imagenmini": "inc/img/adidashombre/adidas-azul-astrarun-mini.jpg",
+        "imagengrande": "inc/img/adidashombre/adidas-azul-astrarun-grande.jpg"
        },
        {
         "id":8,
@@ -69,7 +83,9 @@
         "precio":6299,
         "id_marca":1,
         "modelo":"Solar Trainer",
-        "id_genero":1
+        "id_genero":1,
+        "imagenmini": "inc/img/adidashombre/adidas-blanca-solartrainer-mini.jpg",
+        "imagengrande": "inc/img/adidashombre/adidas-blanca-solartrainer-grande.jpg" 
        },
        {
         "id":9,
@@ -78,7 +94,9 @@
         "precio":4999,
         "id_marca":1,
         "modelo":"Court K",
-        "id_genero":3
+        "id_genero":3,
+        "imagenmini": "inc/img/adidasniño/adidas-blanca-grandcourtk-mini.jpg",
+        "imagengrande": "inc/img/adidasniño/adidas-blanca-grandcourtk-grande.jpg" 
        },
        {
         "id":10,
@@ -87,7 +105,9 @@
         "precio":5499,
         "id_marca":1,
         "modelo":"Superstar",
-        "id_genero":3
+        "id_genero":3,
+        "imagenmini": "inc/img/adidasniño/adidas-superestar-mini.jpg",
+        "imagengrande": "inc/img/adidasniño/adidas-superestar-grande.jpg"
        },
        {
         "id":11,
@@ -96,7 +116,9 @@
         "precio":11599,
         "id_marca":2,
         "modelo":"Air Max Command",
-        "id_genero":2
+        "id_genero":2,
+        "imagenmini": "inc/img/nikemujer/nike-airmaxcommand-mini.jpg",
+        "imagengrande": "inc/img/nikemujer/nike-airmaxcommand-grande.jpg"
        },
        {
         "id":12,
@@ -105,7 +127,9 @@
         "precio":9299,
         "id_marca":2,
         "modelo":"Renew Run",
-        "id_genero":2
+        "id_genero":2,
+        "imagenmini": "inc/img/nikemujer/nike-blanca-remewrun-mini.jpg",
+        "imagengrande": "inc/img/nikemujer/nike-blanca-remewrun-grande.jpg"
        },
        {
         "id":13,
@@ -114,7 +138,9 @@
         "precio":5039,
         "id_marca":2,
         "modelo":"Md Runner 2 Se",
-        "id_genero":2
+        "id_genero":2,
+        "imagenmini": "inc/img/nikemujer/nike-gris-mdrunner2se-mini.jpg",
+        "imagengrande": "inc/img/nikemujer/nike-gris-mdrunner2se-grande.jpg"
        },
        {
         "id":14,
@@ -123,7 +149,9 @@
         "precio":8399,
         "id_marca":2,
         "modelo":"Amixa",
-        "id_genero":2
+        "id_genero":2,
+        "imagenmini": "inc/img/nikemujer/nike-negra-amixa-mini.jpg",
+        "imagengrande": "inc/img/nikemujer/nike-negra-amixa-grande.jpg"
        },
        {
         "id":15,
@@ -132,7 +160,9 @@
         "precio":5287,
         "id_marca":2,
         "modelo":"Rival Fly",
-        "id_genero":2
+        "id_genero":2,
+        "imagenmini": "inc/img/nikehombre/nike-azul-rivalfly-mini.jpg",
+        "imagengrande": "inc/img/nikehombre/nike-azul-rivalfly-grande.jpg"
        },
        {
         "id":16,
@@ -141,7 +171,9 @@
         "precio":8699,
         "id_marca":2,
         "modelo":"Air max Bella TR 2",
-        "id_genero":2
+        "id_genero":2,
+        "imagenmini": "inc/img/nikehombre/nike-roja-airmaxbellatr2-mini.jpg",
+        "imagengrande": "inc/img/nikehombre/nike-negra-airmaxbellatr2y-grande.jpg"
        },
        {
         "id":17,
@@ -150,7 +182,9 @@
         "precio":7969,
         "id_marca":2,
         "modelo":"Air Max Axis",
-        "id_genero":2
+        "id_genero":2,
+        "imagenmini": "inc/img/nikehombre/nike-negraroja-airmaxaxis-mini.jpg",
+        "imagengrande": "inc/img/nikehombre/nike-negraroja-airmaxaxis-grande.jpg"
        },
        {
         "id":18,
@@ -159,7 +193,9 @@
         "precio":8389,
         "id_marca":2,
         "modelo":"Renew Lucent",
-        "id_genero":2
+        "id_genero":2,
+        "imagenmini": "inc/img/nikehombre/nike-blancanegra-renewlucent-mini.jpg",
+        "imagengrande": "inc/img/nikehombre/nike-blancanegra-renewlucent-grande.jpg"
        },
        {
         "id":19,
@@ -168,7 +204,9 @@
         "precio":5199,
         "id_marca":3,
         "modelo":"Monochro",
-        "id_genero":2
+        "id_genero":2,
+        "imagenmini": "inc/img/conversemujer/converse-negra-taylor-mini.jpg",
+        "imagengrande": "inc/img/conversemujer/converse-negra-taylor-grande.jpg"
        },
        {
         "id":20,
@@ -177,7 +215,9 @@
         "precio":4995,
         "id_marca":3,
         "modelo":"Core Ox",
-        "id_genero":2
+        "id_genero":2,
+        "imagenmini": "inc/img/conversemujer/converse-roja-taylor-mini.jpg",
+        "imagengrande": "inc/img/conversemujer/converse-roja-taylor-grande.jpg"
        },{
         "id":21,
         "nombre":"Zapatilla Blanca Converse Chuck Taylor All Star Metallic",
@@ -185,7 +225,9 @@
         "precio":3369,
         "id_marca":3,
         "modelo":"Core Ox",
-        "id_genero":2
+        "id_genero":2,
+        "imagenmini": "inc/img/conversemujer/converse-blanca-taylor-mini.jpg",
+        "imagengrande": "inc/img/conversemujer/converse-blanca-taylor-grande.jpg"
        },
        {
         "id":22,
@@ -194,7 +236,9 @@
         "precio":4089,
         "id_marca":3,
         "modelo":"Stoke Ox",
-        "id_genero":1
+        "id_genero":1,
+        "imagenmini": "inc/img/conversehombre/converse-azul-stoke-mini.jpg",
+        "imagengrande": "inc/img/conversehombre/converse-azul-stoke-grande.jpg"
        }
        ,{
         "id":23,
@@ -203,7 +247,9 @@
         "precio":6399,
         "id_marca":3,
         "modelo":"Rival Ox",
-        "id_genero":1
+        "id_genero":1,
+        "imagenmini": "inc/img/conversehombre/converse-negra-rival-mini.jpg",
+        "imagengrande": "inc/img/conversehombre/converse-negra-rival-grande.jpg"
        },
        {
         "id":24,
@@ -212,7 +258,9 @@
         "precio":4039,
         "id_marca":3,
         "modelo":"Stoke Od Faded",
-        "id_genero":2
+        "id_genero":2,
+        "imagenmini": "inc/img/conversehombre/converse-verde-stoke-ok-faded-mini.jpg",
+        "imagengrande": "inc/img/conversehombre/converse-verde-stoke-ok-faded-grande.jpg"
        },
        {
         "id":25,
@@ -221,7 +269,9 @@
         "precio":6199,
         "id_marca":3,
         "modelo":"Lift Ox",
-        "id_genero":2
+        "id_genero":2,
+        "imagenmini": "inc/img/conversehombre/converse-verde-lift-mini.jpg",
+        "imagengrande": "inc/img/conversehombre/converse-verde-lift-grande.jpg"
        }
        ,{
         "id":26,
@@ -230,7 +280,9 @@
         "precio":4999,
         "id_marca":3,
         "modelo":"Hi Maroo",
-        "id_genero":2
+        "id_genero":2,
+        "imagenmini": "inc/img/conversemujer/converse-bordo-taylor-mini.jpg",
+        "imagengrande": "inc/img/conversemujer/converse-bordo-taylor-grande.jpg"
        },{
         "id":27,
         "nombre":"Zapatilla Tribeka Dc Se",
@@ -238,7 +290,9 @@
         "precio":8299,
         "id_marca":4,
         "modelo":"Tribeka",
-        "id_genero":2
+        "id_genero":2,
+        "imagenmini": "inc/img/dcsshoesmujer/dcshoes-rosa-tribeka-mini.jpg",
+        "imagengrande": "inc/img/dcsshoesmujer/dcshoes-rosa-tribeka-grande.jpg"
        },{
         "id":28,
         "nombre":"Zapatilla DC Heathrow Ia",
@@ -246,7 +300,9 @@
         "precio":6399,
         "id_marca":4,
         "modelo":"Heathrow Ia",
-        "id_genero":2
+        "id_genero":2,
+        "imagenmini": "inc/img/dcsshoesmujer/dcshoes-gris-heathrow-mini.jpg",
+        "imagengrande": "inc/img/dcsshoesmujer/dcshoes-gris-heathrow-grande.jpg"
        },{
         "id":29,
         "nombre":"Zapatilla Tribeka Dc Se Dorada",
@@ -254,7 +310,9 @@
         "precio":8299,
         "id_marca":4,
         "modelo":"Tribeka",
-        "id_genero":2
+        "id_genero":2,
+        "imagenmini": "inc/img/dcsshoesmujer/dcshoes-rosa-oro-tribeka-ia-mini.jpg",
+        "imagengrande": "inc/img/dcsshoesmujer/dcshoes-rosa-oro-tribeka-ia-grande.jpg"
        },{
         "id":30,
         "nombre":"Zapatilla DC Heathrow",
@@ -262,7 +320,9 @@
         "precio":8299,
         "id_marca":4,
         "modelo":"Heathrow",
-        "id_genero":2
+        "id_genero":2,
+        "imagenmini": "inc/img/dcsshoesmujer/dcshoes-roja-heathrow-ia-mini.jpg",
+        "imagengrande": "inc/img/dcsshoesmujer/dcshoes-roja-heathrow-ia-grande.jpg"
        },{
         "id":31,
         "nombre":"Zapatilla DC Heathrow SE",
@@ -270,7 +330,9 @@
         "precio":7299,
         "id_marca":4,
         "modelo":"Heathrow",
-        "id_genero":3
+        "id_genero":3,
+        "imagenmini": "inc/img/dcshoesniños/dcshoes-gris-heathrow-se-mini.jpg",
+        "imagengrande": "inc/img/dcshoesniños/dcshoes-gris-heathrow-se-grande.jpg"
        },{
         "id":32,
         "nombre":"Zapatilla DC Trase Tx",
@@ -278,7 +340,9 @@
         "precio":5799,
         "id_marca":4,
         "modelo":"Trase Tx",
-        "id_genero":3
+        "id_genero":3,
+        "imagenmini": "inc/img/dcshoesniños/dcshoes-blanca-trase-tx-mini.jpg",
+        "imagengrande": "inc/img/dcshoesniños/dcshoes-blanca-trase-tx-grande.jpg"
        },{
         "id":33,
         "nombre":"Zapatilla DC Trase Tx Se",
@@ -286,7 +350,9 @@
         "precio":6999,
         "id_marca":4,
         "modelo":"Trase Tx Se",
-        "id_genero":3
+        "id_genero":3,
+        "imagenmini": "inc/img/dcshoesniños/dcshoes-azul-trase-mini.jpg",
+        "imagengrande": "inc/img/dcshoesniños/dcshoes-azul-trase-grande.jpg"
        },{
         "id":34,
         "nombre":"Zapatilla DC Heathrow",
@@ -294,7 +360,9 @@
         "precio":6999,
         "id_marca":4,
         "modelo":"Trase Tx",
-        "id_genero":3
+        "id_genero":3,
+        "imagenmini": "inc/img/dcshoesniños/dcshoes-negra-heathrow-mini.jpg",
+        "imagengrande": "inc/img/dcshoesniños/dcshoes-negra-heathrow-grande.jpg"
        },{
         "id":35,
         "nombre":"Zapatilla U Vans Sport",
@@ -302,7 +370,9 @@
         "precio":6900,
         "id_marca":5,
         "modelo":"Sport",
-        "id_genero":1
+        "id_genero":1,
+        "imagenmini": "inc/img/vanshombre/vans-azul-sport-mini.jpg",
+        "imagengrande": "inc/img/vanshombre/vans-azul-sport-grande.jpg"
        },{
         "id":36,
         "nombre":"Zapatilla U Vans Authentic",
@@ -310,7 +380,9 @@
         "precio":4900,
         "id_marca":5,
         "modelo":"Authentic",
-        "id_genero":1
+        "id_genero":1,
+        "imagenmini": "inc/img/vans/vans-negra-authentic-mini.jpg",
+        "imagengrande": "inc/img/vanshombre/vans-negra-authentic-grande.jpg"
        },{
         "id":37,
         "nombre":"Zapatilla U Vans Doheny",
@@ -318,7 +390,9 @@
         "precio":5100,
         "id_marca":5,
         "modelo":"Doheny",
-        "id_genero":1
+        "id_genero":1,
+        "imagenmini": "inc/img/vans/vans-negra-doheny-mini.jpg",
+        "imagengrande": "inc/img/vanshombre/vans-negra-doheny-grande.jpg"
        },{
         "id":38,
         "nombre":"Zapatilla U Vans Sk8-Hi",
@@ -326,7 +400,9 @@
         "precio":7700,
         "id_marca":5,
         "modelo":"Sk8-Hi",
-        "id_genero":1
+        "id_genero":1,
+        "imagenmini": "inc/img/vanshombre/vans-negra-sk8-mini.jpg",
+        "imagengrande": "inc/img/vanshombre/vans-negra-sk8-grande.jpg"
        },{
         "id":39,
         "nombre":"Zapatilla U Vans Sk8-Hi",
@@ -334,7 +410,9 @@
         "precio":7700,
         "id_marca":5,
         "modelo":"Sk8-Hi",
-        "id_genero":1
+        "id_genero":1,
+        "imagenmini": "inc/img/vansmujer/vans-amarilla-sk8-mini.jpg",
+        "imagengrande": "inc/img/vansmujer/vans-amarilla-sk8-grande.jpg"
        },{
         "id":40,
         "nombre":"Zapatilla U Vans Authentic Elastic Lace",
@@ -342,7 +420,9 @@
         "precio":1200,
         "id_marca":5,
         "modelo":"Authentic Elastic Lace",
-        "id_genero":3
+        "id_genero":3,
+        "imagenmini": "inc/img/vansmujer/vans-roja-authentic-elastic-mini.jpg",
+        "imagengrande": "inc/img/vansmujer/vans-roja-authentic-elastic-grande.jpg"
        },{
         "id":41,
         "nombre":"Zapatilla U Vans T Classic Slip-on",
@@ -350,7 +430,9 @@
         "precio":1800,
         "id_marca":5,
         "modelo":"Classic Slip-on",
-        "id_genero":3
+        "id_genero":3,
+        "imagenmini": "inc/img/vansmujer/vans-classic-slip-mini.jpg",
+        "imagengrande": "inc/img/vansmujer/vans-classic-slip-grande.jpg"
        },{
         "id":42,
         "nombre":"Zapatilla U Vans T Sk8-Hi Zip",
@@ -358,7 +440,9 @@
         "precio":2200,
         "id_marca":5,
         "modelo":"T Sk8-Hi Zip",
-        "id_genero":3
+        "id_genero":3,
+        "imagenmini": "inc/img/vansmujer/vans-bordo-sk8-mini.jpg",
+        "imagengrande": "inc/img/vansmujer/vans-bordo-sk8-grande.jpg"
        }
 
 ]

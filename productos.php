@@ -26,7 +26,7 @@
 					$rutaImagen = $producto["id"];
 					echo '<div class="col-sm-4 pt-1">';
 					echo '<div class="card-columns-fluid">';
-					echo '<img src="img/./.jpg" class="card-img-top" alt="'. $producto["nombre"] .'">';
+					echo '<img src="'. $producto["imagenmini"].'" class="card-img-top" alt="'. $producto["nombre"] .'">';
 					echo '<div class="card-body">';
 					echo '	<h5 class="card-title">'. $producto["nombre"] .'</h5>';
 					echo  '<p class="card-text"> Las nuevas ' . $producto["nombre"] .'!</p>';

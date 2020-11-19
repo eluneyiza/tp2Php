@@ -62,8 +62,8 @@
         "id_marca":1,
         "modelo":"Fabela Rise",
         "id_genero":1,
-        "imagenmini": "inc/img/adidashombre/adidas-negra-fabelarise-mini.jpg",
-        "imagengrande": "inc/img/adidashombre/adidas-negra-fabelarise-grande.jpg"
+        "imagenmini": "inc/img/nikehombre/nike-roja-airmaxbellatr2-mini.jpg",
+        "imagengrande": "inc/img/nikehombre/nike-negra-airmaxbellatr2y-grande.jpg"
        },
        {
         "id":7,
@@ -95,8 +95,8 @@
         "id_marca":1,
         "modelo":"Court K",
         "id_genero":3,
-        "imagenmini": "inc/img/adidasniño/adidas-blanca-grandcourtk-mini.jpg",
-        "imagengrande": "inc/img/adidasniño/adidas-blanca-grandcourtk-grande.jpg" 
+        "imagenmini": "inc/img/adidasniño/adidas-superestar-mini.jpg",
+        "imagengrande": "inc/img/adidasniño/adidas-superestar-grande.jpg"
        },
        {
         "id":10,

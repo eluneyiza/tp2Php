@@ -48,9 +48,6 @@
                 <ul>
                     <li>Precio: $<?php echo $producto['precio']?></li>
                     <li>Talle: 37 a 40</li>
-                    <li>Color: azul</li>
-                    <li>Modelo: Fitness</li>
-                    <li>Sexo: Masculino</li>
                     <li>Codigo articulo: <?php echo $producto['id']?></li>
                 </ul>
 
@@ -77,6 +74,7 @@
                 echo "</div>";
                 echo "<hr>";
                 $coms++;
+                // muestro solo 3 comentarios.
                 if($coms == 3){break;}
                 }else {
                 break;
@@ -131,21 +129,26 @@
                 </form>
                 </div>
             </div>
+            
             <?php
+// sin los if la pagina crashea porque busca algo que aun no esta seteado, por eso se crea un if 
 if (isset($_REQUEST['email']) && isset($_REQUEST['comentario']) && isset($_REQUEST['estrellas'])&& isset($_REQUEST['nombre'])) {
-
+ // seteo global de lo que va adentro del comment
   $email = $_REQUEST['email'];
   $comentario = $_REQUEST['comentario'];
   $estrellas = $_REQUEST['estrellas'];
   $nombre = $_REQUEST['nombre'];
+// seteo que horario utilizar
   date_default_timezone_set("America/Argentina/Buenos_Aires");
-	$comentarios[date('YmdHisU')] = array("fecha" => date('d-m-Y H:i:s'),
+// creo el array con los comentarios con la data recibida
+  $comentarios[date('YmdHisU')] = 
+  array("fecha" => date('d-m-Y H:i:s'),
   "id_producto" => $id_producto,
   "nombre"=> $nombre,
 	"comentario" => $comentario,
 	"estrellas" => $estrellas,
   "email" => $email,);
-
+// escribo en el json el array en el formato correspondiente
 file_put_contents('./data/comentarios.json',json_encode($comentarios));
 
 }

@@ -34,78 +34,36 @@
 
 			<!-- ----------------------------------------| DESTACADOS | 6 cards |----------------------------------------------->
 			<div class="card-deck">
-				<div class="card">
-					<a href="nike"><img src="img/nike1.jpg" class="card-img-top" alt="nike1"></a>
-					<div class="card-body">
-						<h5 class="card-title">Nike Cesped</h5>
-						<p class="card-text">Las nuevas Nike Camuflaje cesped!</p>
-						<p class="card-text "><small class="text-muted">Nuevas!</small></p>
-					</div>
-					<div class="card-footer text-center">
-						<small class="text-muted">En Stock!</small>
-					</div>
+			<?php foreach ($productos as $producto) {
+					if($producto["id"] == 2 || $producto["id"] == 3 || $producto["id"] == 7 ){
+						
+						echo '<div class="card">';
+						echo'<a href="detalle.php?id_producto='.$producto['id'].'"><img width="200px" src="'.$producto["imagenmini"].'" class="card-img-top" alt="'.$producto["nombre"].'"></a>';
+						echo'<div class="card-body">';
+						echo'<h5 class="card-title">'.$producto["nombre"].'</h5>';
+						echo'<p class="card-text">Las nuevas '.$producto["nombre"].'!</p>';
+						echo'<p class="card-text "><small class="text-muted">Nuevas!</small></p></div>';
+							echo'<div class="card-footer text-center"><small class="text-muted">En Stock!</small></div></div>';
+						
+					}}
+				?>
 				</div>
-				<div class="card">
-					<img src="img/dc2.jpg" class="card-img-top" alt="dc2">
-					<div class="card-body">
-						<h5 class="card-title">DC Destroy</h5>
-						<p class="card-text">Solo para skaters y bikers</p>
-						<p class="card-text"><small class="text-muted">Nuevas!</small></p>
-					</div>
-					<div class="card-footer text-center">
-						<small class="text-muted">En Stock!</small>
-					</div>
+			
+				<div class="card-deck">
+			<?php foreach ($productos as $producto) {
+					if($producto["id"] == 5 || $producto["id"] == 1|| $producto["id"] == 8 ){
+						
+						echo '<div class="card">';
+						echo'<a href="detalle.php?id_producto='.$producto['id'].'"><img width="200px" src="'.$producto["imagenmini"].'" class="card-img-top" alt="'.$producto["nombre"].'"></a>';
+						echo'<div class="card-body">';
+						echo'<h5 class="card-title">'.$producto["nombre"].'</h5>';
+						echo'<p class="card-text">Las nuevas '.$producto["nombre"].'!</p>';
+						echo'<p class="card-text "><small class="text-muted">Nuevas!</small></p></div>';
+							echo'<div class="card-footer text-center"><small class="text-muted">En Stock!</small></div></div>';
+						
+					}}
+				?>
 				</div>
-				<div class="card">
-					<img src="img/reebok1.jpg" class="card-img-top" alt="reebok1">
-					<div class="card-body">
-						<h5 class="card-title">Reebook New Word</h5>
-						<p class="card-text">Ultimo modelo de Reebook mas vendido 2019</p>
-						<p class="card-text"><small class="text-muted">Temporada 2019</small></p>
-					</div>
-					<div class="card-footer text-center">
-						<small class="text-muted">En Stock!</small>
-					</div>
-				</div>
-
-			</div>
-			<div class="card-deck">
-				<div class="card">
-					<img src="img/converse1.jpg" class="card-img-top" alt="converse1">
-					<div class="card-body">
-						<h5 class="card-title">Converse Clasics</h5>
-						<p class="card-text">Modelo descontinuado clasico de Converse</p>
-						<p class="card-text"><small class="text-muted">Temporada 2019</small></p>
-					</div>
-					<div class="card-footer text-center">
-						<small class="text-muted">En Stock!</small>
-					</div>
-				</div>
-				<div class="card">
-					<img src="img/vans1.jpg" class="card-img-top" alt="vans1">
-					<div class="card-body">
-						<h5 class="card-title">Card title</h5>
-						<p class="card-text">This card has supporting text below as a natural lead-in to additional
-							content.</p>
-						<p class="card-text"><small class="text-muted text-center">Temporada 2019</small></p>
-					</div>
-					<div class="card-footer text-center">
-						<small class="text-muted">En Stock!</small>
-					</div>
-				</div>
-				<div class="card">
-					<img src="img/puma1.jpg" class="card-img-top" alt="puma1">
-					<div class="card-body">
-						<h5 class="card-title">Puma Geek</h5>
-						<p class="card-text"> Nunca dejes de ser freek, solo mujeres.</p>
-						<p class="card-text"><small class="text-muted text-center">Temporada 2019</small></p>
-					</div>
-					<div class="card-footer text-center">
-						<small class="text-muted">En Stock!</small>
-					</div>
-				</div>
-			</div>
-
 			<!-- ----------------------------------------| DESTACADOS | 6 cards | FIN | ----------------------------------------------->
 
 		</div>

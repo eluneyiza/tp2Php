@@ -31,7 +31,7 @@
         ?>
 			<div class="card text-right">
                 <div class="container col-sm-7">
-                <a href="adidas-astrarun.php"><img src="img/adidas/adidas-hombre/adidas-4787-373115-1-zoom.jpg" class="card-img w-100" alt="adidas-astrarun"></a>
+                <a href="adidas-astrarun.php"><img src="<?php echo $producto['imagengrande']?>" class="card-img w-100" alt="adidas-astrarun"></a>
                 </div>
 				<div class="card-img-overlay text-center">
 					<h5 class="card-title"><?php echo $producto['nombre']?></h5>

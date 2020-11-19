@@ -17,10 +17,11 @@
 
 			<div class="card text-right">
 
-				<a href="nike500.php"><img src="img/nike500.png" class="card-img" alt="destacado-banner"></a>
-				<div class="card-img-overlay">
+				
 				<?php foreach ($productos as $producto) {
-					if($producto["id"] == 1){
+					if($producto["id"] == 5){
+						echo'<a href="detalle.php?id_producto='.$producto['id'].'"><img src="'.$producto['imagengrande'].'" class="card-img h-50"  alt="destacado-banner"></a><div class="card-img-overlay">';
+				
 					echo "<h5 class='card-title'>". $producto["nombre"] . "</h5>";
 					}}
 				?>

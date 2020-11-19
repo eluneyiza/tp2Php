@@ -13,7 +13,8 @@
 	<?php
 		
 		require('sidebar.php');
-
+  
+    
 		?>
 
 		
@@ -22,16 +23,18 @@
 			<!-- ----------------------------------------| DESTACADOS | BANNER |----------------------------------------------->
         <?php 
         if(isset($_REQUEST['id_producto'])){
-            $id_producto = $_REQUEST['id_producto']-1;
+            $id_producto = $_REQUEST['id_producto'];
+            // $id_producto = $_REQUEST['id_producto']-1;
         }else{
             $id_producto = "";
         }
         $productos = json_decode(file_get_contents('.\data\productos.json'), true);
-        $producto = $productos[$id_producto];
+        $producto = $productos[$id_producto-1];
+        
         ?>
 			<div class="card text-right">
                 <div class="container col-sm-7">
-                <a href="adidas-astrarun.php"><img src="<?php echo $producto['imagengrande']?>" class="card-img w-100" alt="adidas-astrarun"></a>
+                <a href=""><img src="<?php echo $producto['imagengrande']?>" class="card-img w-100" alt="adidas-astrarun"></a>
                 </div>
 				<div class="card-img-overlay text-center">
 					<h5 class="card-title"><?php echo $producto['nombre']?></h5>
@@ -56,9 +59,13 @@
             <div class="container">
             <h3 class="text-center pt-2">Comentarios</h3>
             <?php
-                $comentarios = json_decode(file_get_contents('C:\xampp\htdocs\ProgramacionWeb\PW2-G2-09-23-Ceballo-Carballal-Seijas-Iza\data\comentarios.json'), true);
-                foreach($comentarios as $comentario){
+                $comentarios = json_decode(file_get_contents('.\data\comentarios.json'), true);
+               
+                $coms = 0;
+                array_multisort($comentarios,SORT_DESC);
+                  foreach($comentarios as $comentario){
                     if($comentario["id_producto"] == $id_producto){
+                      
                echo" <div class='row pl-5'>";
                 echo    "<ul class='text-decoration-none list-unstyled'>";
                 echo        '<li>Nombre: '. $comentario['nombre'] . '</li>';
@@ -69,6 +76,10 @@
                 echo   "</ul>";
                 echo "</div>";
                 echo "<hr>";
+                $coms++;
+                if($coms == 3){break;}
+                }else {
+                break;
                 }
              }
             ?>
@@ -80,25 +91,25 @@
 
             <div class="mt-5 pt-2 mb-5 d-block">
                 <div class="container text-center pt-5 mt-5 mision rounded shadow">
-                   <img src="img/logo.recort.png" alt="Logo" class="expTecho" width="100px">
-                    <form class="pb-2" action="/ProgramacionWeb/PW2-G2-09-23-Ceballo-Carballal-Seijas-Iza/detalle.php?id_producto=<?php echo $id_producto?>" method="GET">
+                   <img src="img/logo.recort.png" alt="Logo" class="logo" width="100px">
+                    <form class="pb-2" action="" method="POST">
                 <div class="form-row pt-5">
                 
                   <div class="form-group col-md-4">
                     <label for="nombre">Nombre</label>
-                    <input type="hidden" value="<?php $id_producto= $id_producto+1; echo $id_producto?>" name="id_producto" class="form-control"> 
-                    <input type="text" class="form-control" id="nombre" placeholder="Nombre">
+                    <input type="text" value="<?php $id_producto= $id_producto; echo $id_producto?>" name="nombre" class="form-control"> 
+                   
                   </div>
                   
                   <div class="form-group col-md-4">
                       <label for="email">Email</label>
-                      <input type="email" class="form-control" id="eEmail" placeholder="Email">
+                      <input type="email" name="email" class="form-control" id="email" placeholder="Email">
                     </div>
                 
                   
                   <div class="form-group col-lg-4 col-sm-12 col-md-4">
                     <label for="estrellas">estrellas</label>
-                    <select id="estrellas" class="form-control text-center">
+                    <select id="estrellas" name="estrellas" class="form-control text-center">
                       <option selected>1</option>
                       <option>2</option>
                       <option>3</option>
@@ -108,8 +119,9 @@
                     </select>
                   </div>
                   <div class="form-group col-12">
+                  
                   <label for="comentario">Comentario</label>
-                  <textarea class="form-control pb-2" id="comentario" rows="8"></textarea>
+                  <textarea name="comentario" class="form-control pb-2" id="comentario" rows="8"></textarea>
                   <button type="submit" class="btn btn-primary pt-2">Enviar</button>
                 </div>
                 </div>
@@ -119,7 +131,25 @@
                 </form>
                 </div>
             </div>
+            <?php
+if (isset($_REQUEST['email']) && isset($_REQUEST['comentario']) && isset($_REQUEST['estrellas'])&& isset($_REQUEST['nombre'])) {
 
+  $email = $_REQUEST['email'];
+  $comentario = $_REQUEST['comentario'];
+  $estrellas = $_REQUEST['estrellas'];
+  $nombre = $_REQUEST['nombre'];
+  date_default_timezone_set("America/Argentina/Buenos_Aires");
+	$comentarios[date('YmdHisU')] = array("fecha" => date('d-m-Y H:i:s'),
+  "id_producto" => $id_producto,
+  "nombre"=> $nombre,
+	"comentario" => $comentario,
+	"estrellas" => $estrellas,
+  "email" => $email,);
+
+file_put_contents('./data/comentarios.json',json_encode($comentarios));
+
+}
+?>
 			<!-- ----------------------------------------| DESTACADOS | BANNER | FIN |----------------------------------------------->
 
 		</div>

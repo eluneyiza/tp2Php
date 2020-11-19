@@ -40,8 +40,8 @@
         "id_marca":1,
         "modelo":"Superstar",
         "id_genero":2,
-        "imagenmini": "inc/img/adidasmujer/adidas-blanca-superestar-mini.jpg",
-        "imagengrande": "inc/img/adidasmujer/adidas-blanca-superestar-grande.jpg" 
+        "imagenmini": "inc/img/adidasmujer/adidas-blanca-superstar-mini.jpg",
+        "imagengrande": "inc/img/adidasmujer/adidas-blanca-superstar-grande.jpg" 
        },
        {
         "id":5,

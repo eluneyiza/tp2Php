@@ -16,7 +16,7 @@ $mail->Port = 587;
 $mail->SMTPSecure = 'tls';
 $mail->SMTPAuth= true;
 $mail->Username = "kevin.carballal@davinci.edu.ar";
-$mail->Password = 'kevincarballal1994';
+$mail->Password = '*';
 $mail->SetFrom('kevin.carballal@davinci.edu.ar', 'Kevin Carballal');
 $mail->addAddress($_POST["mail"]);
 $mail->isHTML(true);

@@ -34,7 +34,7 @@
         ?>
 			<div class="card text-right">
                 <div class="container col-sm-7">
-                <a href=""><img src="<?php echo $producto['imagengrande']?>" class="card-img w-100" alt="adidas-astrarun"></a>
+                <a href=""><img src="<?php echo $producto['imagengrande']?>" class="card-img w-100" alt="<?php echo $producto['nombre']?>"></a>
                 </div>
 				<div class="card-img-overlay text-center">
 					<h5 class="card-title"><?php echo $producto['nombre']?></h5>
@@ -54,39 +54,7 @@
             </div>
 
             <div class="container">
-            <h3 class="text-center pt-2">Comentarios</h3>
-            <?php
-                $comentarios = json_decode(file_get_contents('.\data\comentarios.json'), true);
-               
-                $coms = 0;
-                array_multisort($comentarios,SORT_DESC);
-                  foreach($comentarios as $comentario){
-                    if($comentario["id_producto"] == $id_producto){
-                      
-               echo" <div class='row pl-5'>";
-                echo    "<ul class='text-decoration-none list-unstyled'>";
-                echo        '<li>Nombre: '. $comentario['nombre'] . '</li>';
-                echo       "<li>Mail:". $comentario['email'] ."</li>";
-                echo       "<li>Comentario:" . $comentario['comentario'] ."</li>";
-                echo        "<li>Calificacion:" . $comentario['estrellas'] . " estrellas</li>";
-                echo        "<li></li>";
-                echo   "</ul>";
-                echo "</div>";
-                echo "<hr>";
-                $coms++;
-                // muestro solo 3 comentarios.
-                if($coms == 3){break;}
-                }else {
-                break;
-                }
-             }
-            ?>
-                
-             
-               
-
-            </div>
-
+            
             <div class="mt-5 pt-2 mb-5 d-block">
                 <div class="container text-center pt-5 mt-5 mision rounded shadow">
                    <img src="img/logo.recort.png" alt="Logo" class="logo" width="100px">
@@ -96,6 +64,11 @@
                   <div class="form-group col-md-4">
                     <label for="nombre">Nombre</label>
                     <input type="text" value="<?php $id_producto= $id_producto; echo $id_producto?>" name="nombre" class="form-control"> 
+                   
+                  </div>
+                  <div class="form-group col-md-4">
+                    <label for="apellido">apellido</label>
+                    <input type="text" value="<?php $id_producto= $id_producto; echo $id_producto?>" name="apellido" class="form-control"> 
                    
                   </div>
                   
@@ -131,28 +104,62 @@
             </div>
             
             <?php
-// sin los if la pagina crashea porque busca algo que aun no esta seteado, por eso se crea un if 
-if (isset($_REQUEST['email']) && isset($_REQUEST['comentario']) && isset($_REQUEST['estrellas'])&& isset($_REQUEST['nombre'])) {
- // seteo global de lo que va adentro del comment
-  $email = $_REQUEST['email'];
-  $comentario = $_REQUEST['comentario'];
-  $estrellas = $_REQUEST['estrellas'];
-  $nombre = $_REQUEST['nombre'];
-// seteo que horario utilizar
-  date_default_timezone_set("America/Argentina/Buenos_Aires");
-// creo el array con los comentarios con la data recibida
-  $comentarios[date('YmdHisU')] = 
-  array("fecha" => date('d-m-Y H:i:s'),
-  "id_producto" => $id_producto,
-  "nombre"=> $nombre,
-	"comentario" => $comentario,
-	"estrellas" => $estrellas,
-  "email" => $email,);
-// escribo en el json el array en el formato correspondiente
-file_put_contents('./data/comentarios.json',json_encode($comentarios));
+            $comentarios = json_decode(file_get_contents('.\data\comentarios.json'), true);
+          // sin los if la pagina crashea porque busca algo que aun no esta seteado, por eso se crea un if 
+          if (isset($_REQUEST['email']) && isset($_REQUEST['comentario']) && isset($_REQUEST['estrellas'])&& isset($_REQUEST['apellido'])&& isset($_REQUEST['nombre'])) {
+          // seteo global de lo que va adentro del comment
+            $email = $_REQUEST['email'];
+            $apellido = $_REQUEST['apellido'];
+            $comentario = $_REQUEST['comentario'];
+            $estrellas = $_REQUEST['estrellas'];
+            $nombre = $_REQUEST['nombre'];
+          // seteo que horario utilizar
+            date_default_timezone_set("America/Argentina/Buenos_Aires");
+          // creo el array con los comentarios con la data recibida
+            $comentarios[date('YmdHisU')] = 
+            array("fecha" => date('d-m-Y H:i:s'),
+            "id_producto" => $id_producto,
+            "nombre"=> $nombre,
+            "apellido"=> $apellido,
+            "comentario" => $comentario,
+            "estrellas" => $estrellas,
+            "email" => $email,);
+          // escribo en el json el array en el formato correspondiente
+          file_put_contents('./data/comentarios.json',json_encode($comentarios));
+          }
+          ?>  
+            
+            <div class="container">
+            <h3 class="text-center pt-2 col-12">Comentarios</h3>
+            <?php               
+                $coms = 0;
+                array_multisort($comentarios,SORT_DESC);
+                  foreach($comentarios as $comentario){
+                    if($comentario["id_producto"] == $id_producto){
+                      
+               echo" <div class='row pl-5'>";
+                echo    "<ul class='text-decoration-none list-unstyled'>";
+                echo        '<li>Nombre: '. $comentario['nombre'] . '</li>';
+                echo        '<li>Apellido: '. $comentario['apellido'] . '</li>';
+                echo       "<li>Mail:". $comentario['email'] ."</li>";
+                echo       "<li>Comentario:" . $comentario['comentario'] ."</li>";
+                echo        "<li>Calificacion:" . $comentario['estrellas'] . " estrellas</li>";
+                echo        "<li></li>";
+                echo   "</ul>";
+                echo "</div>";
+                echo "<hr>";
+                $coms++;
+                // muestro solo 3 comentarios.
+                if($coms == 3){break;}
+                }
+             }
+            ?>
+                
 
-}
-?>
+                </div>
+</div>
+            </div>
+            
 			<!-- ----------------------------------------| DESTACADOS | BANNER | FIN |----------------------------------------------->
 
 		</div>

@@ -106,8 +106,8 @@
         "id_marca":1,
         "modelo":"Superstar",
         "id_genero":3,
-        "imagenmini": "inc/img/adidasniño/adidas-superestar-mini.jpg",
-        "imagengrande": "inc/img/adidasniño/adidas-superestar-grande.jpg"
+        "imagenmini": "inc/img/adidasniño/adidas-blanca-superestar-mini.jpg",
+        "imagengrande": "inc/img/adidasniño/adidas-blanca-superestar-grande.jpg"
        },
        {
         "id":11,
@@ -117,8 +117,8 @@
         "id_marca":2,
         "modelo":"Air Max Command",
         "id_genero":2,
-        "imagenmini": "inc/img/nikemujer/nike-airmaxcommand-mini.jpg",
-        "imagengrande": "inc/img/nikemujer/nike-airmaxcommand-grande.jpg"
+        "imagenmini": "inc/img/nikemujer/nike-rosa-airmaxcommand-mini.jpg",
+        "imagengrande": "inc/img/nikemujer/nike-rosa-airmaxcommand-grande.jpg"
        },
        {
         "id":12,
@@ -128,8 +128,9 @@
         "id_marca":2,
         "modelo":"Renew Run",
         "id_genero":2,
-        "imagenmini": "inc/img/nikemujer/nike-blanca-remewrun-mini.jpg",
-        "imagengrande": "inc/img/nikemujer/nike-blanca-remewrun-grande.jpg"
+        "imagenmini": "inc/img/nikemujer/nike-blanca-renewrun-mini.jpg",
+        
+        "imagengrande": "inc/img/nikemujer/nike-blanca-renewrun-grande.jpg"
        },
        {
         "id":13,
@@ -161,7 +162,7 @@
         "id_marca":2,
         "modelo":"Rival Fly",
         "id_genero":2,
-        "imagenmini": "inc/img/nikehombre/nike-azul-rivalfly-mini.jpg",
+        "imagenmini": "inc/img/nikehombre/nike-azul-rivalfly-grandemini.jpg",
         "imagengrande": "inc/img/nikehombre/nike-azul-rivalfly-grande.jpg"
        },
        {
@@ -381,7 +382,7 @@
         "id_marca":5,
         "modelo":"Authentic",
         "id_genero":1,
-        "imagenmini": "inc/img/vans/vans-negra-authentic-mini.jpg",
+        "imagenmini": "inc/img/vanshombre/vans-negra-authentic-mini.jpg",
         "imagengrande": "inc/img/vanshombre/vans-negra-authentic-grande.jpg"
        },{
         "id":37,
@@ -391,7 +392,7 @@
         "id_marca":5,
         "modelo":"Doheny",
         "id_genero":1,
-        "imagenmini": "inc/img/vans/vans-negra-doheny-mini.jpg",
+        "imagenmini": "inc/img/vanshombre/vans-negra-doheny-mini.jpg",
         "imagengrande": "inc/img/vanshombre/vans-negra-doheny-grande.jpg"
        },{
         "id":38,

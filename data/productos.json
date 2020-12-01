@@ -8,7 +8,8 @@
         "modelo":"Entrap",
         "id_genero":2,
         "imagenmini": "inc/img/adidasmujer/adidas-rosa-entrap-mini.jpg",
-        "imagengrande": "inc/img/adidasmujer/adidas-rosa-entrap-grande.jpg" 
+        "imagengrande": "inc/img/adidasmujer/adidas-rosa-entrap-grande.jpg",
+        "nuevo":"si"
     },
     {
         "id":2,
@@ -19,7 +20,8 @@
         "modelo":"Entrap",
         "id_genero":2,
         "imagenmini": "inc/img/adidasmujer/adidas-negra-entrap-mini.jpg",
-        "imagengrande": "inc/img/adidasmujer/adidas-negra-entrap-grande.jpg" 
+        "imagengrande": "inc/img/adidasmujer/adidas-negra-entrap-grande.jpg",
+        "nuevo":"no"
        },
        {
         "id":3,
@@ -30,7 +32,8 @@
         "modelo":"Runfalcon",
         "id_genero":2,
         "imagenmini": "inc/img/adidasmujer/adidas-rosa-runfalcon-mini.jpg",
-        "imagengrande": "inc/img/adidasmujer/adidas-rosa-runfalcon-grande.jpg"
+        "imagengrande": "inc/img/adidasmujer/adidas-rosa-runfalcon-grande.jpg",
+        "nuevo":"no"
        },
        {
         "id":4,
@@ -41,7 +44,8 @@
         "modelo":"Superstar",
         "id_genero":2,
         "imagenmini": "inc/img/adidasmujer/adidas-blanca-superstar-mini.jpg",
-        "imagengrande": "inc/img/adidasmujer/adidas-blanca-superstar-grande.jpg" 
+        "imagengrande": "inc/img/adidasmujer/adidas-blanca-superstar-grande.jpg" ,
+        "nuevo":"no"
        },
        {
         "id":5,
@@ -52,7 +56,8 @@
         "modelo":"Advantage Bold",
         "id_genero":1,
         "imagenmini": "inc/img/adidashombre/adidas-negra-advantagebold-mini.jpg",
-        "imagengrande": "inc/img/adidashombre/adidas-negra-advantagebold-grande.jpg" 
+        "imagengrande": "inc/img/adidashombre/adidas-negra-advantagebold-grande.jpg" ,
+        "nuevo":"si"
        },
        {
         "id":6,
@@ -63,7 +68,8 @@
         "modelo":"Fabela Rise",
         "id_genero":1,
         "imagenmini": "inc/img/nikehombre/nike-roja-airmaxbellatr2-mini.jpg",
-        "imagengrande": "inc/img/nikehombre/nike-negra-airmaxbellatr2y-grande.jpg"
+        "imagengrande": "inc/img/nikehombre/nike-negra-airmaxbellatr2y-grande.jpg",
+        "nuevo":"no"
        },
        {
         "id":7,
@@ -74,7 +80,8 @@
         "modelo":"Astrarun",
         "id_genero":1,
         "imagenmini": "inc/img/adidashombre/adidas-azul-astrarun-mini.jpg",
-        "imagengrande": "inc/img/adidashombre/adidas-azul-astrarun-grande.jpg"
+        "imagengrande": "inc/img/adidashombre/adidas-azul-astrarun-grande.jpg",
+        "nuevo":"no"
        },
        {
         "id":8,
@@ -85,7 +92,8 @@
         "modelo":"Solar Trainer",
         "id_genero":1,
         "imagenmini": "inc/img/adidashombre/adidas-blanca-solartrainer-mini.jpg",
-        "imagengrande": "inc/img/adidashombre/adidas-blanca-solartrainer-grande.jpg" 
+        "imagengrande": "inc/img/adidashombre/adidas-blanca-solartrainer-grande.jpg" ,
+        "nuevo":"no"
        },
        {
         "id":9,
@@ -96,7 +104,8 @@
         "modelo":"Court K",
         "id_genero":3,
         "imagenmini": "inc/img/adidasniño/adidas-superestar-mini.jpg",
-        "imagengrande": "inc/img/adidasniño/adidas-superestar-grande.jpg"
+        "imagengrande": "inc/img/adidasniño/adidas-superestar-grande.jpg",
+        "nuevo":"no"
        },
        {
         "id":10,
@@ -107,7 +116,8 @@
         "modelo":"Superstar",
         "id_genero":3,
         "imagenmini": "inc/img/adidasniño/adidas-blanca-superestar-mini.jpg",
-        "imagengrande": "inc/img/adidasniño/adidas-blanca-superestar-grande.jpg"
+        "imagengrande": "inc/img/adidasniño/adidas-blanca-superestar-grande.jpg",
+        "nuevo":"si"
        },
        {
         "id":11,
@@ -118,7 +128,8 @@
         "modelo":"Air Max Command",
         "id_genero":2,
         "imagenmini": "inc/img/nikemujer/nike-rosa-airmaxcommand-mini.jpg",
-        "imagengrande": "inc/img/nikemujer/nike-rosa-airmaxcommand-grande.jpg"
+        "imagengrande": "inc/img/nikemujer/nike-rosa-airmaxcommand-grande.jpg",
+        "nuevo":"no"
        },
        {
         "id":12,
@@ -129,8 +140,8 @@
         "modelo":"Renew Run",
         "id_genero":2,
         "imagenmini": "inc/img/nikemujer/nike-blanca-renewrun-mini.jpg",
-        
-        "imagengrande": "inc/img/nikemujer/nike-blanca-renewrun-grande.jpg"
+        "imagengrande": "inc/img/nikemujer/nike-blanca-renewrun-grande.jpg",
+        "nuevo":"si"
        },
        {
         "id":13,
@@ -141,7 +152,8 @@
         "modelo":"Md Runner 2 Se",
         "id_genero":2,
         "imagenmini": "inc/img/nikemujer/nike-gris-mdrunner2se-mini.jpg",
-        "imagengrande": "inc/img/nikemujer/nike-gris-mdrunner2se-grande.jpg"
+        "imagengrande": "inc/img/nikemujer/nike-gris-mdrunner2se-grande.jpg",
+        "nuevo":"no"
        },
        {
         "id":14,
@@ -152,7 +164,8 @@
         "modelo":"Amixa",
         "id_genero":2,
         "imagenmini": "inc/img/nikemujer/nike-negra-amixa-mini.jpg",
-        "imagengrande": "inc/img/nikemujer/nike-negra-amixa-grande.jpg"
+        "imagengrande": "inc/img/nikemujer/nike-negra-amixa-grande.jpg",
+        "nuevo":"si"
        },
        {
         "id":15,
@@ -163,7 +176,8 @@
         "modelo":"Rival Fly",
         "id_genero":2,
         "imagenmini": "inc/img/nikehombre/nike-azul-rivalfly-grandemini.jpg",
-        "imagengrande": "inc/img/nikehombre/nike-azul-rivalfly-grande.jpg"
+        "imagengrande": "inc/img/nikehombre/nike-azul-rivalfly-grande.jpg",
+        "nuevo":"no"
        },
        {
         "id":16,
@@ -174,7 +188,8 @@
         "modelo":"Air max Bella TR 2",
         "id_genero":2,
         "imagenmini": "inc/img/nikehombre/nike-roja-airmaxbellatr2-mini.jpg",
-        "imagengrande": "inc/img/nikehombre/nike-negra-airmaxbellatr2y-grande.jpg"
+        "imagengrande": "inc/img/nikehombre/nike-negra-airmaxbellatr2y-grande.jpg",
+        "nuevo":"no"
        },
        {
         "id":17,
@@ -185,7 +200,8 @@
         "modelo":"Air Max Axis",
         "id_genero":2,
         "imagenmini": "inc/img/nikehombre/nike-negraroja-airmaxaxis-mini.jpg",
-        "imagengrande": "inc/img/nikehombre/nike-negraroja-airmaxaxis-grande.jpg"
+        "imagengrande": "inc/img/nikehombre/nike-negraroja-airmaxaxis-grande.jpg",
+        "nuevo":"no"
        },
        {
         "id":18,
@@ -196,7 +212,8 @@
         "modelo":"Renew Lucent",
         "id_genero":2,
         "imagenmini": "inc/img/nikehombre/nike-blancanegra-renewlucent-mini.jpg",
-        "imagengrande": "inc/img/nikehombre/nike-blancanegra-renewlucent-grande.jpg"
+        "imagengrande": "inc/img/nikehombre/nike-blancanegra-renewlucent-grande.jpg",
+        "nuevo":"no"
        },
        {
         "id":19,
@@ -207,7 +224,8 @@
         "modelo":"Monochro",
         "id_genero":2,
         "imagenmini": "inc/img/conversemujer/converse-negra-taylor-mini.jpg",
-        "imagengrande": "inc/img/conversemujer/converse-negra-taylor-grande.jpg"
+        "imagengrande": "inc/img/conversemujer/converse-negra-taylor-grande.jpg",
+        "nuevo":"no"
        },
        {
         "id":20,
@@ -218,7 +236,8 @@
         "modelo":"Core Ox",
         "id_genero":2,
         "imagenmini": "inc/img/conversemujer/converse-roja-taylor-mini.jpg",
-        "imagengrande": "inc/img/conversemujer/converse-roja-taylor-grande.jpg"
+        "imagengrande": "inc/img/conversemujer/converse-roja-taylor-grande.jpg",
+        "nuevo":"si"
        },{
         "id":21,
         "nombre":"Zapatilla Blanca Converse Chuck Taylor All Star Metallic",
@@ -228,7 +247,8 @@
         "modelo":"Core Ox",
         "id_genero":2,
         "imagenmini": "inc/img/conversemujer/converse-blanca-taylor-mini.jpg",
-        "imagengrande": "inc/img/conversemujer/converse-blanca-taylor-grande.jpg"
+        "imagengrande": "inc/img/conversemujer/converse-blanca-taylor-grande.jpg",
+        "nuevo":"no"
        },
        {
         "id":22,
@@ -239,7 +259,8 @@
         "modelo":"Stoke Ox",
         "id_genero":1,
         "imagenmini": "inc/img/conversehombre/converse-azul-stoke-mini.jpg",
-        "imagengrande": "inc/img/conversehombre/converse-azul-stoke-grande.jpg"
+        "imagengrande": "inc/img/conversehombre/converse-azul-stoke-grande.jpg",
+        "nuevo":"no"
        }
        ,{
         "id":23,
@@ -250,7 +271,8 @@
         "modelo":"Rival Ox",
         "id_genero":1,
         "imagenmini": "inc/img/conversehombre/converse-negra-rival-mini.jpg",
-        "imagengrande": "inc/img/conversehombre/converse-negra-rival-grande.jpg"
+        "imagengrande": "inc/img/conversehombre/converse-negra-rival-grande.jpg",
+        "nuevo":"no"
        },
        {
         "id":24,
@@ -261,7 +283,8 @@
         "modelo":"Stoke Od Faded",
         "id_genero":2,
         "imagenmini": "inc/img/conversehombre/converse-verde-stoke-ok-faded-mini.jpg",
-        "imagengrande": "inc/img/conversehombre/converse-verde-stoke-ok-faded-grande.jpg"
+        "imagengrande": "inc/img/conversehombre/converse-verde-stoke-ok-faded-grande.jpg",
+        "nuevo":"no"
        },
        {
         "id":25,
@@ -272,7 +295,8 @@
         "modelo":"Lift Ox",
         "id_genero":2,
         "imagenmini": "inc/img/conversehombre/converse-verde-lift-mini.jpg",
-        "imagengrande": "inc/img/conversehombre/converse-verde-lift-grande.jpg"
+        "imagengrande": "inc/img/conversehombre/converse-verde-lift-grande.jpg",
+        "nuevo":"si"
        }
        ,{
         "id":26,
@@ -283,7 +307,8 @@
         "modelo":"Hi Maroo",
         "id_genero":2,
         "imagenmini": "inc/img/conversemujer/converse-bordo-taylor-mini.jpg",
-        "imagengrande": "inc/img/conversemujer/converse-bordo-taylor-grande.jpg"
+        "imagengrande": "inc/img/conversemujer/converse-bordo-taylor-grande.jpg",
+        "nuevo":"no"
        },{
         "id":27,
         "nombre":"Zapatilla Tribeka Dc Se",
@@ -293,7 +318,8 @@
         "modelo":"Tribeka",
         "id_genero":2,
         "imagenmini": "inc/img/dcsshoesmujer/dcshoes-rosa-tribeka-mini.jpg",
-        "imagengrande": "inc/img/dcsshoesmujer/dcshoes-rosa-tribeka-grande.jpg"
+        "imagengrande": "inc/img/dcsshoesmujer/dcshoes-rosa-tribeka-grande.jpg",
+        "nuevo":"si"
        },{
         "id":28,
         "nombre":"Zapatilla DC Heathrow Ia",
@@ -303,7 +329,8 @@
         "modelo":"Heathrow Ia",
         "id_genero":2,
         "imagenmini": "inc/img/dcsshoesmujer/dcshoes-gris-heathrow-mini.jpg",
-        "imagengrande": "inc/img/dcsshoesmujer/dcshoes-gris-heathrow-grande.jpg"
+        "imagengrande": "inc/img/dcsshoesmujer/dcshoes-gris-heathrow-grande.jpg",
+        "nuevo":"no"
        },{
         "id":29,
         "nombre":"Zapatilla Tribeka Dc Se Dorada",
@@ -313,7 +340,8 @@
         "modelo":"Tribeka",
         "id_genero":2,
         "imagenmini": "inc/img/dcsshoesmujer/dcshoes-rosa-oro-tribeka-ia-mini.jpg",
-        "imagengrande": "inc/img/dcsshoesmujer/dcshoes-rosa-oro-tribeka-ia-grande.jpg"
+        "imagengrande": "inc/img/dcsshoesmujer/dcshoes-rosa-oro-tribeka-ia-grande.jpg",
+        "nuevo":"no"
        },{
         "id":30,
         "nombre":"Zapatilla DC Heathrow",
@@ -323,7 +351,8 @@
         "modelo":"Heathrow",
         "id_genero":2,
         "imagenmini": "inc/img/dcsshoesmujer/dcshoes-roja-heathrow-ia-mini.jpg",
-        "imagengrande": "inc/img/dcsshoesmujer/dcshoes-roja-heathrow-ia-grande.jpg"
+        "imagengrande": "inc/img/dcsshoesmujer/dcshoes-roja-heathrow-ia-grande.jpg",
+        "nuevo":"si"
        },{
         "id":31,
         "nombre":"Zapatilla DC Heathrow SE",
@@ -333,7 +362,8 @@
         "modelo":"Heathrow",
         "id_genero":3,
         "imagenmini": "inc/img/dcshoesniños/dcshoes-gris-heathrow-se-mini.jpg",
-        "imagengrande": "inc/img/dcshoesniños/dcshoes-gris-heathrow-se-grande.jpg"
+        "imagengrande": "inc/img/dcshoesniños/dcshoes-gris-heathrow-se-grande.jpg",
+        "nuevo":"no"
        },{
         "id":32,
         "nombre":"Zapatilla DC Trase Tx",
@@ -343,7 +373,8 @@
         "modelo":"Trase Tx",
         "id_genero":3,
         "imagenmini": "inc/img/dcshoesniños/dcshoes-blanca-trase-tx-mini.jpg",
-        "imagengrande": "inc/img/dcshoesniños/dcshoes-blanca-trase-tx-grande.jpg"
+        "imagengrande": "inc/img/dcshoesniños/dcshoes-blanca-trase-tx-grande.jpg",
+        "nuevo":"no"
        },{
         "id":33,
         "nombre":"Zapatilla DC Trase Tx Se",
@@ -353,7 +384,8 @@
         "modelo":"Trase Tx Se",
         "id_genero":3,
         "imagenmini": "inc/img/dcshoesniños/dcshoes-azul-trase-mini.jpg",
-        "imagengrande": "inc/img/dcshoesniños/dcshoes-azul-trase-grande.jpg"
+        "imagengrande": "inc/img/dcshoesniños/dcshoes-azul-trase-grande.jpg",
+        "nuevo":"no"
        },{
         "id":34,
         "nombre":"Zapatilla DC Heathrow",
@@ -363,7 +395,8 @@
         "modelo":"Trase Tx",
         "id_genero":3,
         "imagenmini": "inc/img/dcshoesniños/dcshoes-negra-heathrow-mini.jpg",
-        "imagengrande": "inc/img/dcshoesniños/dcshoes-negra-heathrow-grande.jpg"
+        "imagengrande": "inc/img/dcshoesniños/dcshoes-negra-heathrow-grande.jpg",
+        "nuevo":"si"
        },{
         "id":35,
         "nombre":"Zapatilla U Vans Sport",
@@ -373,7 +406,8 @@
         "modelo":"Sport",
         "id_genero":1,
         "imagenmini": "inc/img/vanshombre/vans-azul-sport-mini.jpg",
-        "imagengrande": "inc/img/vanshombre/vans-azul-sport-grande.jpg"
+        "imagengrande": "inc/img/vanshombre/vans-azul-sport-grande.jpg",
+        "nuevo":"no"
        },{
         "id":36,
         "nombre":"Zapatilla U Vans Authentic",
@@ -383,7 +417,8 @@
         "modelo":"Authentic",
         "id_genero":1,
         "imagenmini": "inc/img/vanshombre/vans-negra-authentic-mini.jpg",
-        "imagengrande": "inc/img/vanshombre/vans-negra-authentic-grande.jpg"
+        "imagengrande": "inc/img/vanshombre/vans-negra-authentic-grande.jpg",
+        "nuevo":"si"
        },{
         "id":37,
         "nombre":"Zapatilla U Vans Doheny",
@@ -393,7 +428,8 @@
         "modelo":"Doheny",
         "id_genero":1,
         "imagenmini": "inc/img/vanshombre/vans-negra-doheny-mini.jpg",
-        "imagengrande": "inc/img/vanshombre/vans-negra-doheny-grande.jpg"
+        "imagengrande": "inc/img/vanshombre/vans-negra-doheny-grande.jpg",
+        "nuevo":"no"
        },{
         "id":38,
         "nombre":"Zapatilla U Vans Sk8-Hi",
@@ -403,7 +439,8 @@
         "modelo":"Sk8-Hi",
         "id_genero":1,
         "imagenmini": "inc/img/vanshombre/vans-negra-sk8-mini.jpg",
-        "imagengrande": "inc/img/vanshombre/vans-negra-sk8-grande.jpg"
+        "imagengrande": "inc/img/vanshombre/vans-negra-sk8-grande.jpg",
+        "nuevo":"no"
        },{
         "id":39,
         "nombre":"Zapatilla U Vans Sk8-Hi",
@@ -413,7 +450,8 @@
         "modelo":"Sk8-Hi",
         "id_genero":1,
         "imagenmini": "inc/img/vansmujer/vans-amarilla-sk8-mini.jpg",
-        "imagengrande": "inc/img/vansmujer/vans-amarilla-sk8-grande.jpg"
+        "imagengrande": "inc/img/vansmujer/vans-amarilla-sk8-grande.jpg",
+        "nuevo":"si"
        },{
         "id":40,
         "nombre":"Zapatilla U Vans Authentic Elastic Lace",
@@ -423,7 +461,8 @@
         "modelo":"Authentic Elastic Lace",
         "id_genero":3,
         "imagenmini": "inc/img/vansmujer/vans-roja-authentic-elastic-mini.jpg",
-        "imagengrande": "inc/img/vansmujer/vans-roja-authentic-elastic-grande.jpg"
+        "imagengrande": "inc/img/vansmujer/vans-roja-authentic-elastic-grande.jpg",
+        "nuevo":"si"
        },{
         "id":41,
         "nombre":"Zapatilla U Vans T Classic Slip-on",
@@ -433,7 +472,8 @@
         "modelo":"Classic Slip-on",
         "id_genero":3,
         "imagenmini": "inc/img/vansmujer/vans-classic-slip-mini.jpg",
-        "imagengrande": "inc/img/vansmujer/vans-classic-slip-grande.jpg"
+        "imagengrande": "inc/img/vansmujer/vans-classic-slip-grande.jpg",
+        "nuevo":"no"
        },{
         "id":42,
         "nombre":"Zapatilla U Vans T Sk8-Hi Zip",
@@ -443,7 +483,8 @@
         "modelo":"T Sk8-Hi Zip",
         "id_genero":3,
         "imagenmini": "inc/img/vansmujer/vans-bordo-sk8-mini.jpg",
-        "imagengrande": "inc/img/vansmujer/vans-bordo-sk8-grande.jpg"
+        "imagengrande": "inc/img/vansmujer/vans-bordo-sk8-grande.jpg",
+        "nuevo":"si"
        }
 
 ]

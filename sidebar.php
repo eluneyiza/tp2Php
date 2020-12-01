@@ -96,10 +96,13 @@
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="productos.php" alt="Productos | productos.html">Productos</a>
+			</li> 
+			<li class="nav-item">
+                <a class="nav-link" href="nuevos.php" alt="ProductosNuevos | productos.html">Nuevos</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="contacto.php" alt="Contacto | contacto.html">Contacto</a>
-
+			</li>
         </ul>
 
     </div>

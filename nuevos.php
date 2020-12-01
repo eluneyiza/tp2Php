@@ -3,7 +3,7 @@
 
 
 <?php 
-	$title = "Productos";
+	$title = "Nuevos";
 	require_once('head.php');
 ?>
 
@@ -22,14 +22,12 @@
 				<div class="row">
 				<?php		
 				foreach ($productos as $producto) {
-					if(($producto["id_marca"] == $idMarca || $idMarca == "") && ($producto["id_genero"] == $idCategoria || $idCategoria == "")){
+					if($producto["nuevo"] == "si"){
 					
 					echo '<div class="col-sm-4 pt-1">';
 					echo '<div class="card-columns-fluid">';
 					echo '<img src="'. $producto["imagenmini"].'" class="card-img-top" alt="'. $producto["nombre"] .'">';
-					if($producto["nuevo"] == "si"){
-						echo '<span class="badge badge-danger">Nuevo</span>';
-					}
+					echo '<span class="badge badge-danger">Nuevo</span>';
 					echo '<div class="card-body">';
 					echo '	<h5 class="card-title">'. $producto["nombre"] .'</h5>';
 					echo  '<p class="card-text"> Las nuevas ' . $producto["nombre"] .'!</p>';

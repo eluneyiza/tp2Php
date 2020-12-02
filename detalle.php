@@ -93,7 +93,14 @@
                   
                   <label for="comentario">Comentario</label>
                   <textarea name="comentario" class="form-control pb-2" id="comentario" rows="8"></textarea>
-                  <button type="submit" class="btn btn-primary pt-2">Enviar</button>
+                  <button type="submit" class="btn btn-primary pt-2" onclick="comEnviado()">Enviar</button>
+                  
+                  <script> 
+                  function comEnviado() {
+                    alert("Comentario enviado");
+                  }
+                  </script>
+
                 </div>
                 </div>
                 </div>

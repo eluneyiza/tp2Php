@@ -62,7 +62,12 @@
 	  <label for="textArea">Comentario</label>
 	  <textarea name="comentario" class="form-control" id="textArea" rows="8"></textarea>
 	</div>
-	<button type="submit" class="btn btn-primary">Enviar</button>
+	<button type="submit" class="btn btn-primary" onclick="consultaEnviada()">Enviar</button>
+	<script> 
+                  function consultaEnviada() {
+                    alert("Comentario enviado");
+                  }
+                  </script>
 	</form>
 	</div>
 </div>

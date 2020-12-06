@@ -103,8 +103,8 @@
         "id_marca":1,
         "modelo":"Court K",
         "id_genero":3,
-        "imagenmini": "inc/img/adidasniño/adidas-superestar-mini.jpg",
-        "imagengrande": "inc/img/adidasniño/adidas-superestar-grande.jpg",
+        "imagenmini": "inc/img/adidasmujer/adidas-grandcourt-mini.jpg",
+        "imagengrande": "inc/img/adidasmujer/adidas-grandcourt-grande.jpg",
         "nuevo":"no"
        },
        {
@@ -282,8 +282,8 @@
         "id_marca":3,
         "modelo":"Stoke Od Faded",
         "id_genero":2,
-        "imagenmini": "inc/img/conversehombre/converse-verde-stoke-ok-faded-mini.jpg",
-        "imagengrande": "inc/img/conversehombre/converse-verde-stoke-ok-faded-grande.jpg",
+        "imagenmini": "inc/img/conversemujer/converse-verde-stoke-ok-faded-mini.jpg",
+        "imagengrande": "inc/img/conversemujer/converse-verde-stoke-ok-faded-grande.jpg",
         "nuevo":"no"
        },
        {

@@ -65,7 +65,7 @@
 	<button type="submit" class="btn btn-primary" onclick="consultaEnviada()">Enviar</button>
 	<script> 
                   function consultaEnviada() {
-                    alert("Comentario enviado");
+                    alert("Consulta Enviada");
                   }
                   </script>
 	</form>
